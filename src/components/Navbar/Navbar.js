@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 const ExportedNavbar = props => {
   return ( 
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-      <Navbar.Brand><Link to="/">Smart Talking Gestures</Link></Navbar.Brand>
+      <Navbar.Brand><Link to="/">Disablaid</Link></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
