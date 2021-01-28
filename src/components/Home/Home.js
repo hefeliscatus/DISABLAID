@@ -12,7 +12,7 @@ const Home = (props) => {
 				<div className="container px-5 py-24 mx-auto">
 					<div className="text-center mb-20">
 						<h1 className="sm:text-3xl text-2xl font-medium title-font text mb-4">
-							Welcome to <strong>Smart Talking Gestures!</strong>
+							Welcome to <strong>Disablaid - Aid for the disabled</strong>
 						</h1>
 						<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
 							We take your <strong>GESTURES</strong> and convert those into{" "}
@@ -36,14 +36,14 @@ const Home = (props) => {
 								</div>
 								<div className="flex-grow">
 									<h2 className="title-font text-xl font-medium text-gray-900 mb-3">
-										Sign to Speech
+										Gestures to speech
 									</h2>
 									<p className="leading-relaxed text-base">
 										Convert your ASL/ISL gestures to voice with us
 									</p>
 									<div className={classes.navLink}>
 										<NavLink to="/sign-to-speech" className={classes.whiteText}>
-											Signs to Speech
+											Gestures to Speech
 										</NavLink>
 									</div>
 								</div>
@@ -60,14 +60,14 @@ const Home = (props) => {
 								</div>
 								<div className="flex-grow">
 									<h2 className="title-font text-xl font-medium text-gray-900 mb-3">
-										Voice to Sign
+										Voice to Hand Gestures
 									</h2>
 									<p className="leading-relaxed text-base">
-										Convert your voice to ASL/ISL language with us
+										Convert your voice to ASL/ISL language with this app
 									</p>
 									<div className={classes.navLink}>
 										<NavLink to="/speech-to-sign" className={classes.whiteText}>
-											Speech to Signs
+											Speech to Gestures
 										</NavLink>
 									</div>
 								</div>
@@ -88,7 +88,7 @@ const Home = (props) => {
 									</h2>
 									<p className="leading-relaxed text-base">
 										Make your own gestures, create your own sign language with
-										us
+										our app
 									</p>
 									<div className={classes.navLink}>
 										<NavLink to="/custom-signs" className={classes.whiteText}>

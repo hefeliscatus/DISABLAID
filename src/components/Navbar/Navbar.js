@@ -13,13 +13,13 @@ const ExportedNavbar = props => {
       <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <div className={classes.navLink}>
-              <Link to="/sign-to-speech" className={classes.whiteText}> Signs to Speech </Link>
+              <Link to="/sign-to-speech" className={classes.whiteText}>Gestures to Speech</Link>
             </div>
             <div className={classes.navLink}>
-              <Link to="/speech-to-sign" className={classes.whiteText}> Speech to Signs </Link>
+              <Link to="/speech-to-sign" className={classes.whiteText}> Speech to Gestures</Link>
             </div>
             <div className={classes.navLink}>
-              <Link to="/custom-signs" className={classes.whiteText}> Custom Signs </Link>
+              <Link to="/custom-signs" className={classes.whiteText}> Custom Gestures</Link>
             </div>
           </Nav>
       </Navbar.Collapse>

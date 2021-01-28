@@ -107,7 +107,7 @@ const SpeechToSign = props => {
   return (
   <div>
     <div className="bg-dark text-light d-flex flex-column justify-content-center align-items-center">
-      <h1> Welcome to Speech to Sign! </h1>{" "}
+      <h1> Welcome to Speech to Gestures! </h1>{" "}
       <h3>
         Here you can comunicate with the deaf and dumbs with our translator.{" "}
       </h3>{" "}
